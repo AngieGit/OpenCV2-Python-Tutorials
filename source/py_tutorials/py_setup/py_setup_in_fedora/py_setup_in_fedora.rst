@@ -35,17 +35,17 @@ Open Python IDLE (or IPython) and type following codes in Python terminal.
     
 If the results are printed out without any errors, congratulations !!! You have installed OpenCV-Python successfully.
 
-It is quite easy. But there is a problem with this. Yum repositories may not contain the latest version of OpenCV always. For example, at the time of writing this tutorial, yum repository contains 2.4.5 while latest OpenCV version is 2.4.6. With respect to Python API, latest version will always contain much better support. Also, there may be chance of problems with camera support, video playback etc depending upon the drivers, ffmpeg, gstreamer packages present etc. 
+It is quite easy. But there is a problem with this. Yum repositories may not contain the latest version of OpenCV always. For example, at the time of writing this tutorial, yum repository contains 2.4.5 while the latest OpenCV version is 2.4.6. With respect to Python API, latest version will always contain much better support. Also, there may be chance of problems with camera support, video playback etc depending upon the drivers, ffmpeg, gstreamer packages present etc. 
 
-So my personnel preference is next method, i.e. compiling from source. Also at some point of time, if you want to contribute to OpenCV, you will need this.
+So my personal preference is using the next method, i.e. compiling from source. Also at some point of time, if you want to contribute to OpenCV, you will need this.
 
 
 Installing OpenCV from source 
 ===============================
 
-Compiling from source may seem a little complicated at first, but once you succeeded in it, there is nothing complicated.
+Compiling from source may seem a little complicated at first, but once you succeed in it, there is nothing complicated.
 
-First we will install some dependencies. Some are compulsory, some are optional. Optional dependencies, you can leave if you don't want.
+First we will install some dependencies. Some are compulsory, some are optional. You can choose to leave out the Optional dependencies if you do not need them.
 
 
 Compulsory Dependencies
@@ -75,7 +75,7 @@ Next we need **GTK** support for GUI features, Camera support (libdc1394, libv4l
 Optional Dependencies
 --------------------------
 
-Above dependencies are sufficient to install OpenCV in your fedora machine. But depending upon your requirements, you may need some extra dependencies. A list of such optional dependencies are given below. You can either leave it or install it, your call :)
+The above dependencies are sufficient to install OpenCV in your fedora machine. But depending upon your requirements, you may need some extra dependencies. A list of such optional dependencies are given below. You can either leave it or install it, your call :)
         
 OpenCV comes with supporting files for image formats like PNG, JPEG, JPEG2000, TIFF, WebP etc. But it may be a little old. If you want to get latest libraries, you can install development files for these formats.
 
